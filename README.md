@@ -14,7 +14,7 @@ but is also of use to any other build system user.
 
 # Format
 
-Thee index file contains two root nodes, "files" and "libraries". In use, you look up an unknown header in 
+The index file contains two root nodes, "files" and "libraries". In use, you look up an unknown header in 
 the "files" entry and find if it has a library mapped to it. If it does, you then look up that library in
 the "libraries" entry. It will be mapped to an array of zero or more entries. If it's empty, the library is
 the best match for this header, but no evokable repository is known.
