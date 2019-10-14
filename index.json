@@ -2,11 +2,11 @@
   "libraries": {
     "catch": {
       "url": "https://github.com/evokable/catch",
-      "type": "gitrepo",
+      "type": "git",
       "tag": "v2.10.0"
     }
   },
-  "files": [
+  "files": {
     "catch/catch.hpp": "catch"
-  ]
+  }
 }
