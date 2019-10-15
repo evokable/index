@@ -4,9 +4,15 @@
       "url": "https://github.com/evokable/catch",
       "type": "git",
       "tag": "v2.10.0"
+    } ],
+    "tl_optional": [ {
+      "url": "https://github.com/TartanLlama/optional",
+      "type": "git",
+      "tag": "v1.0.0"
     } ]
   },
   "files": {
-    "catch/catch.hpp": "catch"
+    "catch/catch.hpp": "catch",
+    "tl/optional.hpp": "tl_optional"
   }
 }
