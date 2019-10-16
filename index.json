@@ -1,11 +1,19 @@
 { 
   "libraries": {
     "catch": [ {
+      "license": "BSL-1.0",
       "url": "https://github.com/evokable/catch",
       "type": "git",
       "tag": "v2.10.0"
     } ],
+    "dear_imgui": [ {
+      "license": "MIT",
+      "url": "https://github.com/evokable/imgui",
+      "type": "git",
+      "tag": "v1.73"
+    } ],
     "tl_optional": [ {
+      "license": "CC0",
       "url": "https://github.com/TartanLlama/optional",
       "type": "git",
       "tag": "v1.0.0"
@@ -13,6 +21,12 @@
   },
   "files": {
     "catch/catch.hpp": "catch",
+    "imgui/imconfig.h": "dear_imgui",
+    "imgui/imgui.h": "dear_imgui",
+    "imgui/imgui_internal.h": "dear_imgui",
+    "imgui/imstb_rectpack.h": "dear_imgui",
+    "imgui/imstb_textedit.h": "dear_imgui",
+    "imgui/imstb_truetype.h": "dear_imgui",
     "tl/optional.hpp": "tl_optional"
   }
 }
