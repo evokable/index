@@ -18,6 +18,12 @@
       "type": "git",
       "tag": "HEAD"
     } ],
+    "nlohmann_json": [ {
+      "license": "MIT",
+      "url": "https://github.com/evokable/nlohmann_json",
+      "type": "git",
+      "tag": "v3.7.3"
+    } ],
     "tl_optional": [ {
       "license": "CC0",
       "url": "https://github.com/TartanLlama/optional",
@@ -33,6 +39,7 @@
     "imgui/imstb_rectpack.h": "dear_imgui",
     "imgui/imstb_textedit.h": "dear_imgui",
     "imgui/imstb_truetype.h": "dear_imgui",
+    "json.hpp": "nlohmann_json",
     "tl/optional.hpp": "tl_optional",
     "unifex/via.hpp": "libunifex",
     "unifex/type_erased_stream.hpp": "libunifex",
